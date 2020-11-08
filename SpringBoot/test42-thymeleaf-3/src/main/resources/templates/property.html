@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf常见属性</title>
+</head>
+<body>
+<form method="get" action="http://localhost:8080/test1">
+    用户编号 <input type="text" name="id"/><br>
+    用户姓名 <input type="text" name="username"/><br>
+    用户年龄 <input type="text" name="age"/><br>
+    <input type="submit" value="提交"/>
+</form>
+<h5>th一般在后台取值用，自己赋值不要用</h5>
+<form method="get" th:action="@{/test1}">
+    用户编号 <input type="text" th:id="id" th:name="id"/><br>
+    用户姓名 <input type="text" th:id="username" th:name="username"/><br>
+    用户年龄 <input type="text" th:id="age" th:name="age"/><br>
+    <input type="submit" value="提交"/>
+</form>
+
+<script type="text/javascript">
+    function test() {
+        alert("----");
+    }
+</script>
+<button th:onclick="test()">th没啥用</button>
+</body>
+</html>

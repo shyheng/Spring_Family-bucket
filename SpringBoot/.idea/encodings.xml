@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/test1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test10/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test12/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test14/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test15/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test16/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test17/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test18-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test19-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test21-dubbo-xiaofei/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test22-dubbo-xiaofeizhe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test24-ssm-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test25-ssm-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test25-ssm-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test26-java-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test27-java-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test28-logo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test29-setlogo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test30-lanjieqi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test31-servlet-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test32-servlet-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test33-guoliuqi-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test34-guoliuqi-filter-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test35-zhifubianma-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test36-character/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test37-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test38-jar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test39-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test40-thymeleaf-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test41-thymeleaf-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test42-thymeleaf-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test43-thymeleaf-list/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test45-thymeleaf-inline/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test46-thymeleaf-literal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test47-thymeleaf-operator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test48-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test49-thymeleaf-function/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test51-dubbo-ssm-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test52-dubbo-ssm-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test53-dubbo-ssm-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test6/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test7-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test9/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tset44-thmeleaf-if/src/main/java" charset="UTF-8" />
+  </component>
+</project>

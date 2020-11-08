@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    声明student对象-->
+<!--    赋值
+       1set注入（设置注入）
+       （1）基本注入
+       <bean id="" class="" >
+       <property name="属性名" value="属性值"></property>
+       </bean>
+        找set后面的，没有属性也行
+
+        （2）,引用类型的set注入：Spring调用类的set方法
+
+
+        2 构造注入：Spring调用类有参构造方法，在创建对象同时，在构造方法中属性赋值
+        <constructor-arg name="属性名" value="属性值"/>
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="school" ref="myxuexiao"/>
+
+
+-->
+<!--    使用name属性实现构造注入-->
+    <bean id="mystudent" class="shy.zhishi3.Student" >
+        <constructor-arg name="name" value="wyr"/>
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="school" ref="myxuexiao"/>
+    </bean>
+
+    <bean id="mystudent1" class="shy.zhishi3.Student">
+        <constructor-arg index="0" value="shy"/>
+        <constructor-arg index="1" value="18"/>
+        <constructor-arg index="2" ref="myxuexiao"/>
+    </bean>
+<!--    声明school对象-->
+    <bean id="myxuexiao" class="shy.zhishi3.School">
+        <property name="name" value="王"/>
+        <property name="address" value="瑞"/>
+    </bean>
+
+<!--    创建File，使用构造注入-->
+    <bean id="myfile" class="java.io.File">
+        <constructor-arg name="parent" value="F:\Spring\test1"/>
+        <constructor-arg name="child" value="shy.txt"/>
+    </bean>
+</beans>

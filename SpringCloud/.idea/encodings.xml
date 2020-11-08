@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/test1-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test1-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test2-eukea-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test2-eureka-client-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test2-eureka-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test3-eureka-cluster-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test3-eureka-cluster-procider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test3-eureka-server-cluster-9100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test3-eureka-server-cluster-server-9200/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-client-ribbon-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-client-ribbon-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-client-ribbon-provider8081/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-client-ribbon-provider8082/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-client-ribbon-provider8082/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test4-eureka-server-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test5-resttrmplate-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test5-resttrmplate-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test6-eureka-hystrix-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test6-eureka-hyxtrix-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test6-eureka-sevier-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test6-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test7-eureka-fegin-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test7-eureka-fegin-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test7-server-fegin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8-euerka-server-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8-eureka-zuul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8-eureka-zuul-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8-eureka-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test8-eureka-zuul-provider/src/main/java" charset="UTF-8" />
+  </component>
+</project>

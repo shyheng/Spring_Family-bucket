@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75d87e6a-8837-4825-836a-a489040ba341" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1f2zU0Hx9Wu5Mjav51YLvZfUe5C" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test8-eureka-zuul-gateway" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shy.filter" />
+      <recent name="shy.model" />
+      <recent name="shy.config" />
+      <recent name="config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SpringCloud\test8-eureka-zuul-gateway" />
+      <recent name="F:\SpringCloud\test8-eureka-zuul-provider" />
+      <recent name="F:\SpringCloud\test8-eureka-zuul-consumer" />
+      <recent name="F:\SpringCloud\test8-euerka-server-zuul" />
+      <recent name="F:\SpringCloud\test7-eureka-fegin-consumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulGateWay">
+    <configuration name="Consumer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test8-eureka-zuul-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test6-eureka-hystrix-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test8-euerka-server-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test6-eureka-sevier-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer9100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test3-eureka-server-cluster-9100" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.EurekaServer9100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer9200" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test3-eureka-server-cluster-server-9200" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.EurekaServer9200" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test7-server-fegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test8-eureka-zuul-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test6-eureka-hyxtrix-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-client-ribbon-provider8081" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider8081" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-client-ribbon-provider8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider8082" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test7-eureka-fegin-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test1-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test1-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2EukeaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test2-eukea-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.test2eukeaserver.Test2EukeaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2EurekaClientConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test2-eureka-client-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test2EurekaClientConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2EurekaClientProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test2-eureka-client-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test2EurekaClientProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3EurekaClusterConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test3-eureka-cluster-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test3EurekaClusterConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3EurekaServerCluster9100Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test3-eureka-server-cluster-9100" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test3EurekaServerCluster9100Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3EurekaServerClusterServer9200Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test3-eureka-server-cluster-server-9200" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test3EurekaServerClusterServer9200Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4EurekaClientRibbonProvider8081Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-client-ribbon-provider8081" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test4EurekaClientRibbonProvider8081Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4EurekaClientRibbonProvider8082Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-client-ribbon-provider8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test4EurekaClientRibbonProvider8082Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4EurekaServerRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-server-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test4EurekaServerRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5ResttrmplateConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test5-resttrmplate-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test5ResttrmplateConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5ResttrmplateProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test5-resttrmplate-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test5ResttrmplateProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6EurekaHystrixConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test6-eureka-hystrix-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test6EurekaHystrixConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6EurekaHyxtrixProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test6-eureka-hyxtrix-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test6EurekaHyxtrixProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6EurekaSevierHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test6-eureka-sevier-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test6EurekaSevierHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test6-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test6HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7EurekaFeginConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test7-eureka-fegin-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test7EurekaFeginConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7EurekaFeginProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test7-eureka-fegin-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test7EurekaFeginProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7ServerFeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test7-server-fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test7ServerFeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8EuerkaServerZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test8-euerka-server-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test8EuerkaServerZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8EurekaZuulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test8-eureka-zuul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test8EurekaZuulConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8EurekaZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test8-eureka-zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test8EurekaZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8EurekaZuulProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test8-eureka-zuul-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Test8EurekaZuulProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tset4EurekaClientRibbonConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test4-eureka-client-ribbon-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.Tset4EurekaClientRibbonConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test8-eureka-zuul-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.ZuulGateWay" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulGateWay" />
+        <item itemvalue="Spring Boot.Consumer (1)" />
+        <item itemvalue="Spring Boot.Provider (1)" />
+        <item itemvalue="Spring Boot.EurekaServer (1)" />
+        <item itemvalue="Spring Boot.Provider (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75d87e6a-8837-4825-836a-a489040ba341" name="Default Changelist" comment="" />
+      <created>1595430986591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595430986591</updated>
+      <workItem from="1595430994069" duration="7148000" />
+      <workItem from="1595476434509" duration="16533000" />
+      <workItem from="1595504334010" duration="9517000" />
+      <workItem from="1595515575600" duration="834000" />
+      <workItem from="1595516510005" duration="4037000" />
+      <workItem from="1595566812641" duration="610000" />
+      <workItem from="1595574196132" duration="929000" />
+      <workItem from="1595575917399" duration="2170000" />
+      <workItem from="1595580851962" duration="35000" />
+      <workItem from="1595583399104" duration="18867000" />
+      <workItem from="1595657848915" duration="4831000" />
+      <workItem from="1595673707568" duration="20833000" />
+      <workItem from="1595724633588" duration="7516000" />
+      <workItem from="1595736863980" duration="11702000" />
+      <workItem from="1596113051540" duration="1306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="74" key="#Inspections" timestamp="1595684203798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1595684203798" />
+    <state x="661" y="74" key="#Notifications" timestamp="1595588338610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="661" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595588338610" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1595592104523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595592104523" />
+    <state x="845" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595509323109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="845" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595509323109" />
+    <state x="946" y="99" width="388" height="716" key="#com.intellij.ide.util.MemberChooser" timestamp="1595748441788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="946" y="99" width="388" height="716" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595748441788" />
+    <state x="936" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595726361342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="936" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1595726361342" />
+    <state x="762" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595741609685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="762" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595741609685" />
+    <state x="817" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595732458407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="817" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1595732458407" />
+    <state x="800" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595742073600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="800" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1595742073600" />
+    <state x="798" y="102" key="FileChooserDialogImpl" timestamp="1595595375267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="798" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595595375267" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1595749072114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595749072114" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1595742003026">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595742003026" />
+    <state x="356" y="17" width="1180" height="706" key="new project wizard" timestamp="1595741991022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="17" width="1180" height="706" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595741991022" />
+    <state x="624" y="0" width="715" height="824" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595657983684">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="624" y="0" width="715" height="824" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1595657983684" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1595743374417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595743374417" />
+    <state x="803" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595679710324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="803" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595679710324" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test1-provider/src/main/java/shy/Provider.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

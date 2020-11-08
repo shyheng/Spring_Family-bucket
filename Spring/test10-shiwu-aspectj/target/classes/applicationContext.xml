@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+<context:property-placeholder location="jdbc.properties"/>
+<!--连接阿里的数据池-->
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.usernama}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.max}"/>
+    </bean>
+<!--    连接mybatis的主配置文件-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource"/>
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+<!--    获取dao包方法-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="shy.dao"/>
+    </bean>
+
+
+<!--    声明service-->
+    <bean id="buyService" class="shy.service.impl.BuyGoodsServiceImpl">
+        <property name="goodsDao" ref="goodsDao"/>
+        <property name="saleDao" ref="saleDao"/>
+    </bean>
+
+
+<!--    声明事务处理：和源代码完全分离-->
+<!--    1管理事务管理对象-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="myDataSource"/>
+    </bean>
+
+<!--  声明业务方法的事务属性（隔离级别，传播行为，超时时间）  -->
+    <tx:advice id="myAdvice" transaction-manager="transactionManager">
+<!--     <tx:attributes>配置事务的属性   -->
+        <tx:attributes>
+<!--        tx:method name=""具体的方法，完整名称或者包名*    -->
+            <tx:method name="buy*" propagation="REQUIRED" isolation="DEFAULT"
+                       rollback-for="shy.excep.NoEnoughException,java.lang.NullPointerException"/>
+
+        </tx:attributes>
+    </tx:advice>
+
+
+    <!--        配置AOP-->
+<aop:config>
+<!--    配置切入点表达式： 指定哪些包中的类要使用事务
+        id ：切入点名称，唯一
+        expression ：切入点表达式。指定哪些类要使用事务，aspectj会创建代理对象
+-->
+    <aop:pointcut id="serc" expression="execution(* *..service..*.*(..))"/>
+
+<!--    配置增强器，关联上面那玩意-->
+    <aop:advisor advice-ref="myAdvice" pointcut-ref="serc"/>
+</aop:config>
+</beans>

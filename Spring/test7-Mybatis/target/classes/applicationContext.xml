@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+<context:property-placeholder location="jdbc.properties"/>
+    <!--声明数据源DataSource,作用是连接数据库的-->
+<!--    第一个bean-->
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+<!--        set注入，给DruidDataSource提供连接数据库的信息-->
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.usernama}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.max}"/>
+    </bean>
+
+<!--    声明的是mybatis中提供的sqlsession-->
+<!--    第二个bean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+<!--        set注入，把数据库连接池给了dataSource属性-->
+        <property name="dataSource" ref="myDataSource"/>
+
+
+        <!--        mybatis主配置文件的位置
+  configLocation  读取配置文件
+   classpath: 表示文件位置
+-->
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+
+<!--    创建dao对象，使用SqlSession的getMapper（Student.class）
+MapperScannerConfigurer 内部生成SqlSession的getMapper（
+-->
+<!--    第三个bean记忆-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+<!--   指定SqlSession对象的id     -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+<!--        指定一个包名是dao接口
+      MapperScannerConfigurer会扫描这个包中所有接口，把每个接口都执行
+      一次getMapper（）方法，得到每个接口的dao对象
+      创建好的dao放到Spring容器中
+
+      所有你只用写value值拷贝就行
+-->
+        <property name="basePackage" value="shy.dao"/>
+    </bean>
+
+<!--    声明student-->
+    <bean id="studentService" class="shy.service.impl.StudentServiceImpl">
+        <property name="studentDao" ref="studentDao"/>
+    </bean>
+</beans>

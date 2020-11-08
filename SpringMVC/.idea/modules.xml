@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test10/test10.iml" filepath="$PROJECT_DIR$/test10/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test11/test11.iml" filepath="$PROJECT_DIR$/test11/test11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test12/test12.iml" filepath="$PROJECT_DIR$/test12/test12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3/test3.iml" filepath="$PROJECT_DIR$/test3/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4/test4.iml" filepath="$PROJECT_DIR$/test4/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5/test5.iml" filepath="$PROJECT_DIR$/test5/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6/test6.iml" filepath="$PROJECT_DIR$/test6/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test7-ssm/test7-ssm.iml" filepath="$PROJECT_DIR$/test7-ssm/test7-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8/test8.iml" filepath="$PROJECT_DIR$/test8/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test9-yich/test9-yich.iml" filepath="$PROJECT_DIR$/test9-yich/test9-yich.iml" />
+    </modules>
+  </component>
+</project>

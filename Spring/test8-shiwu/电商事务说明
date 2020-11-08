@@ -1,0 +1,22 @@
+做事务处理项目
+
+1 新建maven项目
+2 加入依赖
+    1Spring依赖
+    2myBatista依赖
+    3mysql驱动
+    4Spring事务依赖
+    5 mybatis和Spring集成的依赖
+3 创建实体类
+    销售实体类Sale，和商品实体类goods
+4 创建dao接口和mapper文件
+     销售接口s和商品接口g
+     销售接口s和商品接口g映射文件
+5 创建mybatis主配置文件
+6 创建Service接口和实现类，属性dao 两个dao
+7 创建Spring的配置文件 声明mybatis的对象交给Spring创建
+   1 数据源 druid
+   2 sqlsessoinFactory
+   3 dao对象
+
+8 创建测试类，获取Service对象，通过service对象调用dao完成数据库的访问

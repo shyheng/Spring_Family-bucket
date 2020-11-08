@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test10/test10.iml" filepath="$PROJECT_DIR$/test10/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test12/test12.iml" filepath="$PROJECT_DIR$/test12/test12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test14/test14.iml" filepath="$PROJECT_DIR$/test14/test14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test15/test15.iml" filepath="$PROJECT_DIR$/test15/test15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test16/test16.iml" filepath="$PROJECT_DIR$/test16/test16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test17/test17.iml" filepath="$PROJECT_DIR$/test17/test17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test18-rest/test18-rest.iml" filepath="$PROJECT_DIR$/test18-rest/test18-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test19-redis/test19-redis.iml" filepath="$PROJECT_DIR$/test19-redis/test19-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test20-dubbo/test20-dubbo.iml" filepath="$PROJECT_DIR$/test20-dubbo/test20-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test21-dubbo-xiaofei/test21-dubbo-xiaofei.iml" filepath="$PROJECT_DIR$/test21-dubbo-xiaofei/test21-dubbo-xiaofei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test22-dubbo-xiaofeizhe/test22-dubbo-xiaofeizhe.iml" filepath="$PROJECT_DIR$/test22-dubbo-xiaofeizhe/test22-dubbo-xiaofeizhe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test23-ssm-jk/test23-ssm-jk.iml" filepath="$PROJECT_DIR$/test23-ssm-jk/test23-ssm-jk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test24-ssm-producer/test24-ssm-producer.iml" filepath="$PROJECT_DIR$/test24-ssm-producer/test24-ssm-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test25-ssm-consumer/test25-ssm-consumer.iml" filepath="$PROJECT_DIR$/test25-ssm-consumer/test25-ssm-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test26-java-1/test26-java-1.iml" filepath="$PROJECT_DIR$/test26-java-1/test26-java-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test27-java-2/test27-java-2.iml" filepath="$PROJECT_DIR$/test27-java-2/test27-java-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test28-logo/test28-logo.iml" filepath="$PROJECT_DIR$/test28-logo/test28-logo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test29-setlogo/test29-setlogo.iml" filepath="$PROJECT_DIR$/test29-setlogo/test29-setlogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3/test3.iml" filepath="$PROJECT_DIR$/test3/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test30-lanjieqi/test30-lanjieqi.iml" filepath="$PROJECT_DIR$/test30-lanjieqi/test30-lanjieqi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test31-servlet-1/test31-servlet-1.iml" filepath="$PROJECT_DIR$/test31-servlet-1/test31-servlet-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test32-servlet-2/test32-servlet-2.iml" filepath="$PROJECT_DIR$/test32-servlet-2/test32-servlet-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test33-guoliuqi-filter/test33-guoliuqi-filter.iml" filepath="$PROJECT_DIR$/test33-guoliuqi-filter/test33-guoliuqi-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test34-guoliuqi-filter-2/test34-guoliuqi-filter-2.iml" filepath="$PROJECT_DIR$/test34-guoliuqi-filter-2/test34-guoliuqi-filter-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test35-zhifubianma-1/test35-zhifubianma-1.iml" filepath="$PROJECT_DIR$/test35-zhifubianma-1/test35-zhifubianma-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test36-character/test36-character.iml" filepath="$PROJECT_DIR$/test36-character/test36-character.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test37-war/test37-war.iml" filepath="$PROJECT_DIR$/test37-war/test37-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test38-jar/test38-jar.iml" filepath="$PROJECT_DIR$/test38-jar/test38-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test39-logback/test39-logback.iml" filepath="$PROJECT_DIR$/test39-logback/test39-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4/test4.iml" filepath="$PROJECT_DIR$/test4/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test40-thymeleaf-1/test40-thymeleaf-1.iml" filepath="$PROJECT_DIR$/test40-thymeleaf-1/test40-thymeleaf-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test41-thymeleaf-2/test41-thymeleaf-2.iml" filepath="$PROJECT_DIR$/test41-thymeleaf-2/test41-thymeleaf-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test42-thymeleaf-3/test42-thymeleaf-3.iml" filepath="$PROJECT_DIR$/test42-thymeleaf-3/test42-thymeleaf-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test43-thymeleaf-list/test43-thymeleaf-list.iml" filepath="$PROJECT_DIR$/test43-thymeleaf-list/test43-thymeleaf-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test45-thymeleaf-inline/test45-thymeleaf-inline.iml" filepath="$PROJECT_DIR$/test45-thymeleaf-inline/test45-thymeleaf-inline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test46-thymeleaf-literal/test46-thymeleaf-literal.iml" filepath="$PROJECT_DIR$/test46-thymeleaf-literal/test46-thymeleaf-literal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test47-thymeleaf-operator/test47-thymeleaf-operator.iml" filepath="$PROJECT_DIR$/test47-thymeleaf-operator/test47-thymeleaf-operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test48-thymeleaf/test48-thymeleaf.iml" filepath="$PROJECT_DIR$/test48-thymeleaf/test48-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test49-thymeleaf-function/test49-thymeleaf-function.iml" filepath="$PROJECT_DIR$/test49-thymeleaf-function/test49-thymeleaf-function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5/test5.iml" filepath="$PROJECT_DIR$/test5/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test50-parent/test50-parent.iml" filepath="$PROJECT_DIR$/test50-parent/test50-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test51-dubbo-ssm-interface/test51-dubbo-ssm-interface.iml" filepath="$PROJECT_DIR$/test51-dubbo-ssm-interface/test51-dubbo-ssm-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test52-dubbo-ssm-provider/test52-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/test52-dubbo-ssm-provider/test52-dubbo-ssm-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test53-dubbo-ssm-consumer/test53-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/test53-dubbo-ssm-consumer/test53-dubbo-ssm-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6/test6.iml" filepath="$PROJECT_DIR$/test6/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test7-yml/test7-yml.iml" filepath="$PROJECT_DIR$/test7-yml/test7-yml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8/test8.iml" filepath="$PROJECT_DIR$/test8/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test9/test9.iml" filepath="$PROJECT_DIR$/test9/test9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tset44-thmeleaf-if/tset44-thmeleaf-if.iml" filepath="$PROJECT_DIR$/tset44-thmeleaf-if/tset44-thmeleaf-if.iml" />
+    </modules>
+  </component>
+</project>

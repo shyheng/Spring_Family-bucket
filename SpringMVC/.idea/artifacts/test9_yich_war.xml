@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test9-yich:war">
+    <output-path>$PROJECT_DIR$/test9-yich/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test9-yich</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test9-yich-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="test9-yich:war exploded" />
+    </root>
+  </artifact>
+</component>

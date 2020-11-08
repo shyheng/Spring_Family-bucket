@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    声明student对象-->
+<!--    赋值
+       1set注入（设置注入）
+       <property name="属性名" value="属性值"></property>
+        找set后面的，没有属性也行
+-->
+    <bean id="mystudent" class="shy.zhishi1.Student" >
+        <property name="name" value="张"/>
+        <property name="age" value="20"/>
+    </bean>
+    <bean id="mytime" class="java.util.Date">
+        <property name="time" value="45545646"/>
+    </bean>
+</beans>

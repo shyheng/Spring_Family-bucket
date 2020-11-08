@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/test11-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test1/pom.xml" />
+        <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/test3/pom.xml" />
+        <option value="$PROJECT_DIR$/test4/pom.xml" />
+        <option value="$PROJECT_DIR$/test6/pom.xml" />
+        <option value="$PROJECT_DIR$/test7/pom.xml" />
+        <option value="$PROJECT_DIR$/test7-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/test8-shiwu/pom.xml" />
+        <option value="$PROJECT_DIR$/test9-kaiqishiwu/pom.xml" />
+        <option value="$PROJECT_DIR$/test10-shiwu-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/test11-web/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test4-AOP/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

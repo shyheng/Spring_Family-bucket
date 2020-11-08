@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63c2f3ae-8aec-436c-abf7-72c401c44751" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1euShKkZWSlao6NQY70eYPv53uB" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fastdfs-client-java-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootSpringsessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-springsession" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shy.SpringbootSpringsessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63c2f3ae-8aec-436c-abf7-72c401c44751" name="Default Changelist" comment="" />
+      <created>1595170102969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595170102969</updated>
+      <workItem from="1595170117660" duration="2968000" />
+      <workItem from="1595212888198" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="71" key="#Project_Structure" timestamp="1595170281041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="651" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595170281041" />
+    <state x="839" y="167" key="FileChooserDialogImpl" timestamp="1595212935772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="839" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595212935772" />
+    <state x="373" y="25" key="new project wizard" timestamp="1595170269476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="373" y="25" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595170269476" />
+    <state x="721" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595172141466">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="721" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595172141466" />
+  </component>
+</project>

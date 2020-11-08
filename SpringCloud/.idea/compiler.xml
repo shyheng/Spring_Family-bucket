@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test1-provider" />
+        <module name="test8-eureka-zuul-consumer" />
+        <module name="test3-eureka-cluster-consumer" />
+        <module name="test4-eureka-client-ribbon-provider8081" />
+        <module name="test4-eureka-client-ribbon-provider8082" />
+        <module name="test6-eureka-hystrix-consumer" />
+        <module name="test3-eureka-cluster-procider" />
+        <module name="test5-resttrmplate-provider" />
+        <module name="test8-euerka-server-zuul" />
+        <module name="test3-eureka-server-cluster-server-9200" />
+        <module name="test6-eureka-hyxtrix-provider" />
+        <module name="test3-eureka-server-cluster-9100" />
+        <module name="test2-eukea-server" />
+        <module name="test7-eureka-fegin-provider" />
+        <module name="test8-eureka-zuul-gateway" />
+        <module name="test2-eureka-client-consumer" />
+        <module name="test6-eureka-sevier-hystrix" />
+        <module name="test2-eureka-client-provider" />
+        <module name="test6-hystrix-dashboard" />
+        <module name="test4-eureka-server-ribbon" />
+        <module name="test5-resttrmplate-consumer" />
+        <module name="test8-eureka-zuul-provider" />
+        <module name="test7-eureka-fegin-consumer" />
+        <module name="test7-server-fegin" />
+        <module name="test1-consumer" />
+      </profile>
+      <profile name="Annotation profile for tset4-eureka-client-ribbon-consumer" enabled="true">
+        <sourceOutputDir name="../tset4-eureka-client-ribbon-consumer/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../tset4-eureka-client-ribbon-consumer/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test4-eureka-client-ribbon-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test1-consumer" target="1.8" />
+      <module name="test1-provider" target="1.8" />
+      <module name="test2-eukea-server" target="1.8" />
+      <module name="test2-eureka-client-consumer" target="11" />
+      <module name="test2-eureka-client-provider" target="1.8" />
+      <module name="test3-eureka-cluster-consumer" target="11" />
+      <module name="test3-eureka-cluster-procider" target="11" />
+      <module name="test3-eureka-server-cluster-9100" target="11" />
+      <module name="test3-eureka-server-cluster-server-9200" target="11" />
+      <module name="test4-eureka-client-ribbon-consumer" target="11" />
+      <module name="test4-eureka-client-ribbon-provider8081" target="11" />
+      <module name="test4-eureka-client-ribbon-provider8082" target="11" />
+      <module name="test4-eureka-server-ribbon" target="11" />
+      <module name="test5-resttrmplate-consumer" target="11" />
+      <module name="test5-resttrmplate-provider" target="11" />
+      <module name="test6-eureka-hystrix-consumer" target="11" />
+      <module name="test6-eureka-hyxtrix-provider" target="11" />
+      <module name="test6-eureka-sevier-hystrix" target="11" />
+      <module name="test6-hystrix-dashboard" target="11" />
+      <module name="test7-eureka-fegin-consumer" target="11" />
+      <module name="test7-eureka-fegin-provider" target="11" />
+      <module name="test7-server-fegin" target="11" />
+      <module name="test8-euerka-server-zuul" target="11" />
+      <module name="test8-eureka-zuul-consumer" target="11" />
+      <module name="test8-eureka-zuul-gateway" target="11" />
+      <module name="test8-eureka-zuul-provider" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test1-consumer" options="-parameters" />
+      <module name="test1-provider" options="-parameters" />
+      <module name="test2-eukea-server" options="-parameters" />
+      <module name="test2-eureka-client-consumer" options="-parameters" />
+      <module name="test2-eureka-client-provider" options="-parameters" />
+      <module name="test3-eureka-cluster-consumer" options="-parameters" />
+      <module name="test3-eureka-cluster-procider" options="-parameters" />
+      <module name="test3-eureka-server-cluster-9100" options="-parameters" />
+      <module name="test3-eureka-server-cluster-server-9200" options="-parameters" />
+      <module name="test4-eureka-client-ribbon-consumer" options="-parameters" />
+      <module name="test4-eureka-client-ribbon-provider8081" options="-parameters" />
+      <module name="test4-eureka-client-ribbon-provider8082" options="-parameters" />
+      <module name="test4-eureka-server-ribbon" options="-parameters" />
+      <module name="test5-resttrmplate-consumer" options="-parameters" />
+      <module name="test5-resttrmplate-provider" options="-parameters" />
+      <module name="test6-eureka-hystrix-consumer" options="-parameters" />
+      <module name="test6-eureka-hyxtrix-provider" options="-parameters" />
+      <module name="test6-eureka-sevier-hystrix" options="-parameters" />
+      <module name="test6-hystrix-dashboard" options="-parameters" />
+      <module name="test7-eureka-fegin-consumer" options="-parameters" />
+      <module name="test7-eureka-fegin-provider" options="-parameters" />
+      <module name="test7-server-fegin" options="-parameters" />
+      <module name="test8-euerka-server-zuul" options="-parameters" />
+      <module name="test8-eureka-zuul-consumer" options="-parameters" />
+      <module name="test8-eureka-zuul-gateway" options="-parameters" />
+      <module name="test8-eureka-zuul-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

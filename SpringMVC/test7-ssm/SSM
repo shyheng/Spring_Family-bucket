@@ -1,0 +1,39 @@
+SSM整合框架开发，
+SpringMVC 视图层
+Spring 业务层
+Mybatis 持久层
+
+必须会，重点中的重点
+
+SSM整合，整合中的容器
+1 第一个容器SpringMVC容器，管理Controller控制对象，
+2 第二个容器 管理service，dao 工具类对象
+
+SpringMVC容器和Spring容器是有关系的，已经确定
+SpringMVC容器是Spring容器的子容器，类似java中的继承，子类可以访问父类
+
+
+实现步骤
+ 0 使用数据库zph的student，id自增
+ 1 新建maven web项目
+ 2 加入依赖
+   SpringMVC，spring，mybatis三个框架的依赖，json依赖，mysql驱动依赖，druid连接池
+   jsp，servlet依赖
+
+  3 web.xml
+   1)注册DispatcherServlet , 目的  1 创建SpringMVC容器对象，才能就Controller类对象
+                                   2 创建的Servlet，才能接受用户请求
+   2）注册Spring监听器：ContextLoaderListener，目的 创建Spring的容器对象，才能创建service，dao等对象
+
+    3) 注册 字符集过滤器，解决post请求乱码问题
+
+ 4 创建包，Controller包，service，dao，实体类包名创建好
+
+ 5 写SpringMVC，Spring，mybatis的配置文件
+   1  SpringMVC，
+   2  Spring，
+   3  mybatis的配置文件
+   4 数据库的属性配置文件（映射文件）
+
+ 6，写代码 dao接口和mapper文件，service和实现类，controller，实体类
+ 7 写jsp页面

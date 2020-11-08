@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    声明student对象-->
+<!--    赋值
+       1set注入（设置注入）
+       <bean id="" class="" >
+       <property name="属性名" value="属性值"></property>
+       </bean>
+        找set后面的，没有属性也行
+
+        2,引用类型的set注入：Spring调用类的set方法
+
+-->
+    <bean id="mystudent" class="shy.zhishi2.Student" >
+        <property name="name" value="张"/>
+        <property name="age" value="20"/>
+<!--        引用类型的赋值-->
+        <property name="school" ref="myschool"/>
+    </bean>
+
+<!--    声明school对象-->
+    <bean id="myschool" class="shy.zhishi2.School">
+        <property name="name" value="王"/>
+        <property name="address" value="瑞"/>
+    </bean>
+</beans>

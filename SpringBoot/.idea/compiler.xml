@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test21-dubbo-xiaofei" />
+        <module name="test6" />
+        <module name="test18-rest" />
+        <module name="test36-character" />
+        <module name="test23-dubbo-ssm-jk" />
+        <module name="test41-thymeleaf-2" />
+        <module name="test48-thymeleaf" />
+        <module name="test34-guoliuqi-filter-2" />
+        <module name="test53-dubbo-ssm-consumer" />
+        <module name="test32-servlet-2" />
+        <module name="test42-thymeleaf-3" />
+        <module name="test26-java-1" />
+        <module name="test25-ssm-consumer" />
+        <module name="test51-dubbo-ssm-interface" />
+        <module name="test35-zhifubianma-1" />
+        <module name="test40-thymeleaf-1" />
+        <module name="test9" />
+        <module name="test8" />
+        <module name="test45-thymeleaf-inline" />
+        <module name="test46-thymeleaf-literal" />
+        <module name="test5" />
+        <module name="test23-ssm-jk" />
+        <module name="test3" />
+        <module name="test2" />
+        <module name="test1" />
+        <module name="test4" />
+        <module name="test12" />
+        <module name="test49-thymeleaf-function" />
+        <module name="test38-jar" />
+        <module name="test29-setlogo" />
+        <module name="test39-logback" />
+        <module name="test24-ssm-producer" />
+        <module name="test37-war" />
+        <module name="test27-java-2" />
+        <module name="test19-redis" />
+        <module name="tset44-thmeleaf-if" />
+        <module name="test33-guoliuqi-filter" />
+        <module name="test7-yml" />
+        <module name="test31-servlet-1" />
+        <module name="test41-thymeleaf" />
+        <module name="test43-thymeleaf-list" />
+        <module name="test15" />
+        <module name="test17" />
+        <module name="test16" />
+        <module name="test47-thymeleaf-operator" />
+        <module name="test14" />
+        <module name="test52-dubbo-ssm-provider" />
+        <module name="test22-dubbo-xiaofeizhe" />
+        <module name="test30-lanjieqi" />
+        <module name="test10" />
+        <module name="test20-dubbo" />
+        <module name="test28-logo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test1" target="1.8" />
+      <module name="test10" target="1.8" />
+      <module name="test12" target="1.8" />
+      <module name="test14" target="1.8" />
+      <module name="test15" target="1.8" />
+      <module name="test16" target="1.8" />
+      <module name="test17" target="1.8" />
+      <module name="test18" target="1.8" />
+      <module name="test18-rest" target="1.8" />
+      <module name="test19-redis" target="1.8" />
+      <module name="test2" target="1.8" />
+      <module name="test20-dubbo" target="1.8" />
+      <module name="test21-dubbo-xiaofei" target="1.8" />
+      <module name="test22-dubbo-xiaofeizhe" target="1.8" />
+      <module name="test23-dubbo-ssm-jk" target="1.8" />
+      <module name="test23-ssm-jk" target="1.8" />
+      <module name="test24-dubbo-ssm-tigongzhe" target="1.8" />
+      <module name="test24-ssm-producer" target="1.8" />
+      <module name="test25-dubbo-ssm-xiaofeizhe" target="1.8" />
+      <module name="test25-ssm-consumer" target="1.8" />
+      <module name="test26-java-1" target="1.8" />
+      <module name="test27-java-2" target="1.8" />
+      <module name="test28-logo" target="1.8" />
+      <module name="test29-setlogo" target="1.8" />
+      <module name="test3" target="1.8" />
+      <module name="test30-lanjieqi" target="1.8" />
+      <module name="test31-servlet-1" target="1.8" />
+      <module name="test32-servlet-2" target="1.8" />
+      <module name="test33-guoliuqi-filter" target="1.8" />
+      <module name="test34-guoliuqi-filter-2" target="1.8" />
+      <module name="test35-zhifubianma-1" target="1.8" />
+      <module name="test36-character" target="1.8" />
+      <module name="test37-war" target="1.8" />
+      <module name="test38-jar" target="1.8" />
+      <module name="test39-logback" target="1.8" />
+      <module name="test4" target="1.8" />
+      <module name="test40-thymeleaf-1" target="1.8" />
+      <module name="test41-thymeleaf" target="1.8" />
+      <module name="test41-thymeleaf-2" target="1.8" />
+      <module name="test42-thymeleaf-3" target="1.8" />
+      <module name="test43-thymeleaf-list" target="1.8" />
+      <module name="test45-thymeleaf-inline" target="1.8" />
+      <module name="test46-thymeleaf-literal" target="1.8" />
+      <module name="test47-thymeleaf-operator" target="1.8" />
+      <module name="test48-thymeleaf" target="1.8" />
+      <module name="test49-thymeleaf-function" target="1.8" />
+      <module name="test5" target="1.8" />
+      <module name="test50-parent" target="1.8" />
+      <module name="test51-dubbo-ssm-inerface" target="1.8" />
+      <module name="test51-dubbo-ssm-interface" target="1.8" />
+      <module name="test52-dubbo-ssm-provider" target="1.8" />
+      <module name="test53-dubbo-ssm-consumer" target="1.8" />
+      <module name="test6" target="1.8" />
+      <module name="test7-yml" target="1.8" />
+      <module name="test8" target="1.8" />
+      <module name="test9" target="1.8" />
+      <module name="tset44-thmeleaf-if" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test1" options="-parameters" />
+      <module name="test10" options="-parameters" />
+      <module name="test12" options="-parameters" />
+      <module name="test14" options="-parameters" />
+      <module name="test15" options="-parameters" />
+      <module name="test16" options="-parameters" />
+      <module name="test17" options="-parameters" />
+      <module name="test18" options="-parameters" />
+      <module name="test18-rest" options="-parameters" />
+      <module name="test19-redis" options="-parameters" />
+      <module name="test2" options="-parameters" />
+      <module name="test21-dubbo-xiaofei" options="-parameters" />
+      <module name="test22-dubbo-xiaofeizhe" options="-parameters" />
+      <module name="test24-dubbo-ssm-tigongzhe" options="-parameters" />
+      <module name="test24-ssm-producer" options="-parameters" />
+      <module name="test25-dubbo-ssm-xiaofeizhe" options="-parameters" />
+      <module name="test25-ssm-consumer" options="-parameters" />
+      <module name="test26-java-1" options="-parameters" />
+      <module name="test27-java-2" options="-parameters" />
+      <module name="test28-logo" options="-parameters" />
+      <module name="test29-setlogo" options="-parameters" />
+      <module name="test3" options="-parameters" />
+      <module name="test30-lanjieqi" options="-parameters" />
+      <module name="test31-servlet-1" options="-parameters" />
+      <module name="test32-servlet-2" options="-parameters" />
+      <module name="test33-guoliuqi-filter" options="-parameters" />
+      <module name="test34-guoliuqi-filter-2" options="-parameters" />
+      <module name="test35-zhifubianma-1" options="-parameters" />
+      <module name="test36-character" options="-parameters" />
+      <module name="test37-war" options="-parameters" />
+      <module name="test38-jar" options="-parameters" />
+      <module name="test39-logback" options="-parameters" />
+      <module name="test4" options="-parameters" />
+      <module name="test40-thymeleaf-1" options="-parameters" />
+      <module name="test41-thymeleaf" options="-parameters" />
+      <module name="test41-thymeleaf-2" options="-parameters" />
+      <module name="test42-thymeleaf-3" options="-parameters" />
+      <module name="test43-thymeleaf-list" options="-parameters" />
+      <module name="test45-thymeleaf-inline" options="-parameters" />
+      <module name="test46-thymeleaf-literal" options="-parameters" />
+      <module name="test47-thymeleaf-operator" options="-parameters" />
+      <module name="test48-thymeleaf" options="-parameters" />
+      <module name="test49-thymeleaf-function" options="-parameters" />
+      <module name="test5" options="-parameters" />
+      <module name="test51-dubbo-ssm-inerface" options="-parameters" />
+      <module name="test51-dubbo-ssm-interface" options="-parameters" />
+      <module name="test52-dubbo-ssm-provider" options="-parameters" />
+      <module name="test53-dubbo-ssm-consumer" options="-parameters" />
+      <module name="test6" options="-parameters" />
+      <module name="test7-yml" options="-parameters" />
+      <module name="test8" options="-parameters" />
+      <module name="test9" options="-parameters" />
+      <module name="tset44-thmeleaf-if" options="-parameters" />
+    </option>
+  </component>
+</project>

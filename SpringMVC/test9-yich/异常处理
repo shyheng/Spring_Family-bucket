@@ -1,0 +1,11 @@
+步骤
+1新建自定义异常类myUseException，在定义他的子类NameException，AgeException
+2 在controller抛出NameException，AgeException
+3 创建一个普通类，作用全局异常处理类
+ 1 ）在类的上面加入@ControllerAdvice
+ 2 ）在类中定义方法，方法的上面加入 @ExceptionHandler
+4 创建处理异常的页面
+5 创建SpringMVC的配置文件
+  1）组件扫描器@Controller注解
+  2）组件扫描器 @ControllerAdvice所在的包名
+  3 声明注解驱动

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--引用类型自动注入
+       1，byName（按名称注入）java类中引用类型的属性名和Spring容器中<bean>的id一样
+       且数据类型一样 Spring就可以注入了
+
+
+       2 byType(按类型注入)java对象引用类型的数据类型和Spring容器中，bean的 class属性
+       是同源关系的，这样的bean能够赋值给引用类型
+
+       同类就是一类的意思
+
+
+
+-->
+    <bean id="mystudent" class="shy.zhishi4.Student" autowire="byName">
+        <constructor-arg name="name" value="wyr"/>
+        <constructor-arg name="age" value="20"/>
+<!--        <constructor-arg name="school" ref="myxuexiao"/>-->
+    </bean>
+
+<!--    id必须和java对象一样-->
+    <bean id="school" class="shy.zhishi4.School">
+        <property name="name" value="王"/>
+        <property name="address" value="瑞"/>
+    </bean>
+
+</beans>

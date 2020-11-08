@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test11" />
+        <module name="test6" />
+        <module name="test5" />
+        <module name="test4" />
+        <module name="test3" />
+        <module name="test2" />
+        <module name="test1" />
+        <module name="test7-ssm" />
+        <module name="test8" />
+        <module name="test9-yich" />
+        <module name="test12" />
+        <module name="test10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test1" target="1.8" />
+      <module name="test10" target="1.8" />
+      <module name="test11" target="1.8" />
+      <module name="test12" target="1.8" />
+      <module name="test2" target="1.8" />
+      <module name="test3" target="1.8" />
+      <module name="test3 (1)" target="1.8" />
+      <module name="test4" target="1.8" />
+      <module name="test5" target="1.8" />
+      <module name="test6" target="1.8" />
+      <module name="test7-ssm" target="1.8" />
+      <module name="test8" target="1.8" />
+      <module name="test9-yich" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

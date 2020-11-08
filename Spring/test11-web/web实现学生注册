@@ -1,0 +1,10 @@
+1 创建maven，web项目
+2 加入依赖
+  拷贝test7中的依赖
+  jsp，servlet依赖
+
+3 拷贝7中的 代码 和配置文件
+
+4创建 一个jsp发起请求，有参数id，name，email，age
+5 创建Servlet，接收请求参数，调用servlet，调用dao完成注册
+6 创建jsp展示页面

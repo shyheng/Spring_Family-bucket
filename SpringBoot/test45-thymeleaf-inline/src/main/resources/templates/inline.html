@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>内敛表达式</title>
+</head>
+<body th:inline="text">
+<div th:text="${shy}">xxxx</div>
+<h3>内敛文本表达式 th:inline="text"</h3>
+<div th:inline="text">
+    数据[[${shy}]]
+</div>
+
+<h3>内敛脚本表达式 th:inline="javascript"</h3>
+<script type="text/javascript" th:inline="javascript">
+    function shy() {
+        alert([[${shy}]])
+    }
+</script>
+<button th:onclick="shy()">数据</button>
+</body>
+</html>

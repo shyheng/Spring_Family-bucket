@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+<context:property-placeholder location="jdbc.properties"/>
+<!--连接阿里的数据池-->
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.usernama}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.max}"/>
+    </bean>
+<!--    连接mybatis的主配置文件-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource"/>
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+<!--    获取dao包方法-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="shy.dao"/>
+    </bean>
+
+
+<!--    声明service-->
+    <bean id="buyService" class="shy.service.impl.BuyGoodsServiceImpl">
+        <property name="goodsDao" ref="goodsDao"/>
+        <property name="saleDao" ref="saleDao"/>
+    </bean>
+
+<!--  事务处理  -->
+<!--   1声明事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+<!--        连接数据库，指定数据源-->
+        <property name="dataSource" ref="myDataSource"/>
+    </bean>
+<!--  2开启事务注解驱动，告诉Spring使用注解管理事务，创建代理对象  -->
+    <tx:annotation-driven  transaction-manager="transactionManager"/>
+</beans>

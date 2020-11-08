@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test1-consumer/test1-consumer.iml" filepath="$PROJECT_DIR$/test1-consumer/test1-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1-provider/test1-provider.iml" filepath="$PROJECT_DIR$/test1-provider/test1-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2-eukea-server/test2-eukea-server.iml" filepath="$PROJECT_DIR$/test2-eukea-server/test2-eukea-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2-eureka-client-consumer/test2-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/test2-eureka-client-consumer/test2-eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2-eureka-client-provider/test2-eureka-client-provider.iml" filepath="$PROJECT_DIR$/test2-eureka-client-provider/test2-eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3-eureka-cluster-consumer/test3-eureka-cluster-consumer.iml" filepath="$PROJECT_DIR$/test3-eureka-cluster-consumer/test3-eureka-cluster-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3-eureka-cluster-procider/test3-eureka-cluster-procider.iml" filepath="$PROJECT_DIR$/test3-eureka-cluster-procider/test3-eureka-cluster-procider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3-eureka-server-cluster-9100/test3-eureka-server-cluster-9100.iml" filepath="$PROJECT_DIR$/test3-eureka-server-cluster-9100/test3-eureka-server-cluster-9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3-eureka-server-cluster-server-9200/test3-eureka-server-cluster-server-9200.iml" filepath="$PROJECT_DIR$/test3-eureka-server-cluster-server-9200/test3-eureka-server-cluster-server-9200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4-eureka-client-ribbon-consumer/test4-eureka-client-ribbon-consumer.iml" filepath="$PROJECT_DIR$/test4-eureka-client-ribbon-consumer/test4-eureka-client-ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4-eureka-client-ribbon-provider8081/test4-eureka-client-ribbon-provider8081.iml" filepath="$PROJECT_DIR$/test4-eureka-client-ribbon-provider8081/test4-eureka-client-ribbon-provider8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4-eureka-client-ribbon-provider8082/test4-eureka-client-ribbon-provider8082.iml" filepath="$PROJECT_DIR$/test4-eureka-client-ribbon-provider8082/test4-eureka-client-ribbon-provider8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test4-eureka-server-ribbon/test4-eureka-server-ribbon.iml" filepath="$PROJECT_DIR$/test4-eureka-server-ribbon/test4-eureka-server-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5-resttrmplate-consumer/test5-resttrmplate-consumer.iml" filepath="$PROJECT_DIR$/test5-resttrmplate-consumer/test5-resttrmplate-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5-resttrmplate-provider/test5-resttrmplate-provider.iml" filepath="$PROJECT_DIR$/test5-resttrmplate-provider/test5-resttrmplate-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6-eureka-hystrix-consumer/test6-eureka-hystrix-consumer.iml" filepath="$PROJECT_DIR$/test6-eureka-hystrix-consumer/test6-eureka-hystrix-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6-eureka-hyxtrix-provider/test6-eureka-hyxtrix-provider.iml" filepath="$PROJECT_DIR$/test6-eureka-hyxtrix-provider/test6-eureka-hyxtrix-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6-eureka-sevier-hystrix/test6-eureka-sevier-hystrix.iml" filepath="$PROJECT_DIR$/test6-eureka-sevier-hystrix/test6-eureka-sevier-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6-hystrix-dashboard/test6-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/test6-hystrix-dashboard/test6-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test7-eureka-fegin-consumer/test7-eureka-fegin-consumer.iml" filepath="$PROJECT_DIR$/test7-eureka-fegin-consumer/test7-eureka-fegin-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test7-eureka-fegin-provider/test7-eureka-fegin-provider.iml" filepath="$PROJECT_DIR$/test7-eureka-fegin-provider/test7-eureka-fegin-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test7-server-fegin/test7-server-fegin.iml" filepath="$PROJECT_DIR$/test7-server-fegin/test7-server-fegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8-euerka-server-zuul/test8-euerka-server-zuul.iml" filepath="$PROJECT_DIR$/test8-euerka-server-zuul/test8-euerka-server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8-eureka-zuul-consumer/test8-eureka-zuul-consumer.iml" filepath="$PROJECT_DIR$/test8-eureka-zuul-consumer/test8-eureka-zuul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8-eureka-zuul-gateway/test8-eureka-zuul-gateway.iml" filepath="$PROJECT_DIR$/test8-eureka-zuul-gateway/test8-eureka-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test8-eureka-zuul-provider/test8-eureka-zuul-provider.iml" filepath="$PROJECT_DIR$/test8-eureka-zuul-provider/test8-eureka-zuul-provider.iml" />
+    </modules>
+  </component>
+</project>

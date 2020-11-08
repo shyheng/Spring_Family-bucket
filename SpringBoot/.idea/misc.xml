@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/test37-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test1/pom.xml" />
+        <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/test3/pom.xml" />
+        <option value="$PROJECT_DIR$/test4/pom.xml" />
+        <option value="$PROJECT_DIR$/test5/pom.xml" />
+        <option value="$PROJECT_DIR$/test6/pom.xml" />
+        <option value="$PROJECT_DIR$/test7-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/test8/pom.xml" />
+        <option value="$PROJECT_DIR$/test9/pom.xml" />
+        <option value="$PROJECT_DIR$/test10/pom.xml" />
+        <option value="$PROJECT_DIR$/test12/pom.xml" />
+        <option value="$PROJECT_DIR$/test14/pom.xml" />
+        <option value="$PROJECT_DIR$/test15/pom.xml" />
+        <option value="$PROJECT_DIR$/test16/pom.xml" />
+        <option value="$PROJECT_DIR$/test17/pom.xml" />
+        <option value="$PROJECT_DIR$/test18/pom.xml" />
+        <option value="$PROJECT_DIR$/test18-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/test19-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/test20-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/test21-dubbo-xiaofei/pom.xml" />
+        <option value="$PROJECT_DIR$/test22-dubbo-xiaofeizhe/pom.xml" />
+        <option value="$PROJECT_DIR$/test24-dubbo-ssm-tigongzhe/pom.xml" />
+        <option value="$PROJECT_DIR$/test25-dubbo-ssm-xiaofeizhe/pom.xml" />
+        <option value="$PROJECT_DIR$/test23-dubbo-ssm-jk/pom.xml" />
+        <option value="$PROJECT_DIR$/test23-ssm-jk/pom.xml" />
+        <option value="$PROJECT_DIR$/test24-ssm-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/test25-ssm-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/test26-java-1/pom.xml" />
+        <option value="$PROJECT_DIR$/test27-java-2/pom.xml" />
+        <option value="$PROJECT_DIR$/test28-logo/pom.xml" />
+        <option value="$PROJECT_DIR$/test29-setlogo/pom.xml" />
+        <option value="$PROJECT_DIR$/test30-lanjieqi/pom.xml" />
+        <option value="$PROJECT_DIR$/test31-servlet-1/pom.xml" />
+        <option value="$PROJECT_DIR$/test32-servlet-2/pom.xml" />
+        <option value="$PROJECT_DIR$/test33-guoliuqi-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/test34-guoliuqi-filter-2/pom.xml" />
+        <option value="$PROJECT_DIR$/test35-zhifubianma-1/pom.xml" />
+        <option value="$PROJECT_DIR$/test36-character/pom.xml" />
+        <option value="$PROJECT_DIR$/test37-war/pom.xml" />
+        <option value="$PROJECT_DIR$/test38-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/test39-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/test40-thymeleaf-1/pom.xml" />
+        <option value="$PROJECT_DIR$/test41-thymeleaf-2/pom.xml" />
+        <option value="$PROJECT_DIR$/test42-thymeleaf-3/pom.xml" />
+        <option value="$PROJECT_DIR$/test43-thymeleaf-list/pom.xml" />
+        <option value="$PROJECT_DIR$/tset44-thmeleaf-if/pom.xml" />
+        <option value="$PROJECT_DIR$/test45-thymeleaf-inline/pom.xml" />
+        <option value="$PROJECT_DIR$/test46-thymeleaf-literal/pom.xml" />
+        <option value="$PROJECT_DIR$/test47-thymeleaf-operator/pom.xml" />
+        <option value="$PROJECT_DIR$/test48-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/test49-thymeleaf-function/pom.xml" />
+        <option value="$PROJECT_DIR$/test50-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/test52-dubbo-ssm-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/test53-dubbo-ssm-consumer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test51-dubbo-ssm-inerface/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    主配置文件
+ 来包含其他对象，不定义对象
+ import包含关系的配置文件
+
+     classpath: 表示类路径，在target/classes下面的路径
+-->
+<!--    <import resource="classpath:zhishi6/spring-s.xml"/>-->
+<!--    <import resource="classpath:zhishi6/spring-school.xml"/>-->
+
+<!--    通配符*
+      主配置文件不能加Spring会死循环
+-->
+    <import resource="classpath:zhishi6/spring-*.xml"/>
+</beans>
